@@ -1,0 +1,5496 @@
+{
+  "Service": {
+    "nodes": [
+      {
+        "name": "",
+        "file": "",
+        "id": 0,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        },
+        "type": ""
+      },
+      {
+        "name": "isRunningFromServlet()",
+        "file": "ServletFlag",
+        "id": 1,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "create()",
+        "file": "StaticFilesConfiguration",
+        "id": 2,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "putCustomHeader(String,String)",
+        "file": "StaticFilesConfiguration",
+        "id": 3,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "ExceptionMapper",
+        "id": 4,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "access$000(Service)",
+        "file": "Service",
+        "id": 5,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "create(Routable)",
+        "file": "Redirect",
+        "id": 6,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "Service",
+        "id": 7,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "ignite()",
+        "file": "Service",
+        "id": 8,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(Routable)",
+        "file": "Redirect",
+        "id": 9,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(Service)",
+        "file": "Service$StaticFiles",
+        "id": 10,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "StaticFilesConfiguration",
+        "id": 11,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test00()",
+        "file": "Service_ESTest",
+        "id": 12,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "defaultIdentifier()",
+        "file": "EmbeddedServers",
+        "id": 13,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "header(String,String)",
+        "file": "Service$StaticFiles",
+        "id": 14,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(Object)",
+        "file": "WebSocketHandlerInstanceWrapper",
+        "id": 15,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "webSocket(String,Object)",
+        "file": "Service",
+        "id": 16,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test08()",
+        "file": "Service_ESTest",
+        "id": 17,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "configureExternal(String)",
+        "file": "StaticFilesConfiguration",
+        "id": 18,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "isExternalStaticResourcesSet()",
+        "file": "StaticFilesConfiguration",
+        "id": 19,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test16()",
+        "file": "Service_ESTest",
+        "id": 20,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "externalStaticFileLocation(String)",
+        "file": "Service",
+        "id": 21,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "notNull(Object,String)",
+        "file": "Assert",
+        "id": 22,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "secure(String,String,String,String,String,boolean)",
+        "file": "Service",
+        "id": 23,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test24()",
+        "file": "Service_ESTest",
+        "id": 24,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "create(String,String,String,String,String,boolean)",
+        "file": "SslStores",
+        "id": 25,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(String,String,String,String,String,boolean)",
+        "file": "SslStores",
+        "id": 26,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "equals(Object)",
+        "file": "FilterImpl$MockitoMock$1044012763",
+        "id": 27,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "initializeRouteMatcher()",
+        "file": "Service",
+        "id": 28,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "trustForwardHeaders()",
+        "file": "Service",
+        "id": 29,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test32()",
+        "file": "Service_ESTest",
+        "id": 30,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "create()",
+        "file": "Routes",
+        "id": 31,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "throwBeforeRouteMappingException()",
+        "file": "Service",
+        "id": 32,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getPath()",
+        "file": "FilterImpl$MockitoMock$1044012763",
+        "id": 33,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getMockitoInterceptor()",
+        "file": "FilterImpl$MockitoMock$1044012763",
+        "id": 34,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "valueOf(String)",
+        "file": "HttpMethod",
+        "id": 35,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getPaths()",
+        "file": "Service",
+        "id": 36,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "add(String,String,Object)",
+        "file": "Routes",
+        "id": 37,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "addFilter(String,FilterImpl)",
+        "file": "Service",
+        "id": 38,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getAcceptType()",
+        "file": "FilterImpl$MockitoMock$1044012763",
+        "id": 39,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "values()",
+        "file": "HttpMethod",
+        "id": 40,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "init()",
+        "file": "Service",
+        "id": 41,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "Routes",
+        "id": 42,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "setMockitoInterceptor(MockMethodInterceptor)",
+        "file": "FilterImpl$MockitoMock$1044012763",
+        "id": 43,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(String,String)",
+        "file": "ExternalResourceHandler",
+        "id": 44,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getURL()",
+        "file": "ExternalResource",
+        "id": 45,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toURI(String)",
+        "file": "ResourceUtils",
+        "id": 46,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "delimitedListToStringArray(String,String)",
+        "file": "StringUtils",
+        "id": 47,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "hasLength(String)",
+        "file": "StringUtils",
+        "id": 48,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(String)",
+        "file": "ExternalResource",
+        "id": 49,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "replace(String,String,String)",
+        "file": "StringUtils",
+        "id": 50,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "collectionToDelimitedString(Collection,String,String,String)",
+        "file": "StringUtils",
+        "id": 51,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getFile(URL,String)",
+        "file": "ResourceUtils",
+        "id": 52,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toURI(URL)",
+        "file": "ResourceUtils",
+        "id": 53,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "notNull(Object)",
+        "file": "Assert",
+        "id": 54,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "cleanPath(String)",
+        "file": "StringUtils",
+        "id": 55,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "delimitedListToStringArray(String,String,String)",
+        "file": "StringUtils",
+        "id": 56,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test40()",
+        "file": "Service_ESTest",
+        "id": 57,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "hasLength(CharSequence)",
+        "file": "StringUtils",
+        "id": 58,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "collectionToDelimitedString(Collection,String)",
+        "file": "StringUtils",
+        "id": 59,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "isEmpty(Collection)",
+        "file": "CollectionUtils",
+        "id": 60,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getFile()",
+        "file": "AbstractFileResolvingResource",
+        "id": 61,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toStringArray(Collection)",
+        "file": "StringUtils",
+        "id": 62,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getDescription()",
+        "file": "ExternalResource",
+        "id": 63,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "ipAddress(String)",
+        "file": "Service",
+        "id": 64,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test48()",
+        "file": "Service_ESTest",
+        "id": 65,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "disableMimeTypeGuessing()",
+        "file": "Service$StaticFiles",
+        "id": 66,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "disableGuessing()",
+        "file": "MimeType",
+        "id": 67,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test56()",
+        "file": "Service_ESTest",
+        "id": 68,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test64()",
+        "file": "Service_ESTest",
+        "id": 69,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test64",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "routes()",
+        "file": "Service",
+        "id": 70,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test64",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test72()",
+        "file": "Service_ESTest",
+        "id": 71,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test72",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "awaitStop()",
+        "file": "Service",
+        "id": 72,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test72",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test80()",
+        "file": "Service_ESTest",
+        "id": 73,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(Service,Class,ExceptionHandler)",
+        "file": "Service$1",
+        "id": 74,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "map(Class,ExceptionHandlerImpl)",
+        "file": "ExceptionMapper",
+        "id": 75,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(Class)",
+        "file": "ExceptionHandlerImpl",
+        "id": 76,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "exception(Class,ExceptionHandler)",
+        "file": "Service",
+        "id": 77,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "ServletFlag",
+        "id": 78,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "ServiceTest",
+        "id": 79,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test()",
+        "file": "ServiceTest",
+        "id": 80,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "EmbeddedServers$Identifiers",
+        "id": 81,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "embeddedServerIdentifier()",
+        "file": "Service",
+        "id": 82,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "Service",
+        "id": 83,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "StaticFilesConfiguration",
+        "id": 84,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(String,int)",
+        "file": "EmbeddedServers$Identifiers",
+        "id": 85,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testEmbeddedServerIdentifier_defaultAndSet()",
+        "file": "ServiceTest",
+        "id": 86,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "EmbeddedServers",
+        "id": 87,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "embeddedServerIdentifier(Object)",
+        "file": "Service",
+        "id": 88,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testGetPort_whenInitializedTrue()",
+        "file": "ServiceTest",
+        "id": 89,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "port()",
+        "file": "Service",
+        "id": 90,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testHalt_whenOutParameters_thenThrowHaltException()",
+        "file": "ServiceTest",
+        "id": 91,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>()",
+        "file": "HaltException",
+        "id": 92,
+        "type": "C",
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "halt()",
+        "file": "Service",
+        "id": 93,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testIpAddress_whenInitializedFalse()",
+        "file": "ServiceTest",
+        "id": 94,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "port(int)",
+        "file": "Service",
+        "id": 95,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testPort_whenInitializedFalse()",
+        "file": "ServiceTest",
+        "id": 96,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testSecure_thenReturnNewSslStores()",
+        "file": "ServiceTest",
+        "id": 97,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "keystorePassword()",
+        "file": "SslStores",
+        "id": 98,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "trustStoreFile()",
+        "file": "SslStores",
+        "id": 99,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "keystoreFile()",
+        "file": "SslStores",
+        "id": 100,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "secure(String,String,String,String)",
+        "file": "Service",
+        "id": 101,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "trustStorePassword()",
+        "file": "SslStores",
+        "id": 102,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testSetIpAddress_whenInitializedFalse()",
+        "file": "ServiceTest",
+        "id": 103,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException()",
+        "file": "ServiceTest",
+        "id": 104,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testThreadPool_whenOnlyMaxThreads()",
+        "file": "ServiceTest",
+        "id": 105,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "threadPool(int)",
+        "file": "Service",
+        "id": 106,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "threadPool(int,int,int)",
+        "file": "Service",
+        "id": 107,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "addWebSocketHandler(String,WebSocketHandlerWrapper)",
+        "file": "Service",
+        "id": 108,
+        "type": "M",
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testWebSocket_whenPathNull_thenThrowNullPointerException()",
+        "file": "ServiceTest",
+        "id": 109,
+        "type": "T",
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ],
+    "links": [
+      {
+        "source": 0,
+        "target": 12,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 14,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 2,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 1,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 6,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 3,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 4,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 10,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 9,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 2,
+        "target": 11,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 5,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 13,
+        "tests": {
+          "Service": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            },
+            {
+              "name": "test56",
+              "type": "Automatic"
+            },
+            {
+              "name": "test64",
+              "type": "Automatic"
+            },
+            {
+              "name": "test72",
+              "type": "Automatic"
+            },
+            {
+              "name": "test80",
+              "type": "Automatic"
+            },
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 17,
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 17,
+        "target": 16,
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 16,
+        "target": 15,
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 17,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 20,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 21,
+        "target": 19,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 20,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 22,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 21,
+        "target": 18,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            },
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 20,
+        "target": 21,
+        "tests": {
+          "Service": [
+            {
+              "name": "test16",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 24,
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 25,
+        "target": 26,
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 23,
+        "target": 25,
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 24,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 24,
+        "target": 23,
+        "tests": {
+          "Service": [
+            {
+              "name": "test24",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 30,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 28,
+        "target": 31,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 29,
+        "target": 32,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 39,
+        "target": 27,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 34,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 31,
+        "target": 42,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 37,
+        "target": 35,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 38,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 33,
+        "target": 27,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 33,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 29,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 39,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 33,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 28,
+        "target": 1,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 39,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 41,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 30,
+        "target": 43,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 36,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 41,
+        "target": 1,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 38,
+        "target": 37,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 41,
+        "target": 28,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            },
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 35,
+        "target": 40,
+        "tests": {
+          "Service": [
+            {
+              "name": "test32",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 57,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 53,
+        "target": 46,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 61,
+        "target": 45,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 44,
+        "target": 54,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 47,
+        "target": 56,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 52,
+        "target": 53,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 57,
+        "target": 21,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 54,
+        "target": 22,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 50,
+        "target": 48,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 61,
+        "target": 52,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 51,
+        "target": 60,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 49,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 44,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 48,
+        "target": 58,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 55,
+        "target": 47,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 55,
+        "target": 50,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 61,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 55,
+        "target": 59,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 59,
+        "target": 51,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 57,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 52,
+        "target": 22,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 61,
+        "target": 63,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 46,
+        "target": 50,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 49,
+        "target": 55,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 56,
+        "target": 62,
+        "tests": {
+          "Service": [
+            {
+              "name": "test40",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 65,
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 64,
+        "target": 32,
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 65,
+        "target": 41,
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 65,
+        "target": 64,
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 65,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test48",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 68,
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 66,
+        "target": 67,
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 68,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 68,
+        "target": 66,
+        "tests": {
+          "Service": [
+            {
+              "name": "test56",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 69,
+        "tests": {
+          "Service": [
+            {
+              "name": "test64",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 69,
+        "target": 70,
+        "tests": {
+          "Service": [
+            {
+              "name": "test64",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 69,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test64",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 71,
+        "tests": {
+          "Service": [
+            {
+              "name": "test72",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 71,
+        "target": 72,
+        "tests": {
+          "Service": [
+            {
+              "name": "test72",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 71,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test72",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 73,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 77,
+        "target": 74,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 73,
+        "target": 77,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 77,
+        "target": 75,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 74,
+        "target": 76,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 73,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "test80",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 86,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 84,
+        "target": 11,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 78,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 13,
+        "target": 81,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 86,
+        "target": 88,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 86,
+        "target": 13,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 84,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 86,
+        "target": 82,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 80,
+        "target": 8,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 81,
+        "target": 85,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 80,
+        "target": 83,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 87,
+        "tests": {
+          "Service": [
+            {
+              "name": "testEmbeddedServerIdentifier_defaultAndSet",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            },
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            },
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            },
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            },
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            },
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 89,
+        "tests": {
+          "Service": [
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 89,
+        "target": 90,
+        "tests": {
+          "Service": [
+            {
+              "name": "testGetPort_whenInitializedTrue",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 91,
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 91,
+        "target": 93,
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 93,
+        "target": 92,
+        "tests": {
+          "Service": [
+            {
+              "name": "testHalt_whenOutParameters_thenThrowHaltException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 94,
+        "tests": {
+          "Service": [
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 94,
+        "target": 64,
+        "tests": {
+          "Service": [
+            {
+              "name": "testIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 96,
+        "tests": {
+          "Service": [
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 96,
+        "target": 95,
+        "tests": {
+          "Service": [
+            {
+              "name": "testPort_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 97,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 97,
+        "target": 99,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 97,
+        "target": 98,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 97,
+        "target": 101,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 97,
+        "target": 102,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 101,
+        "target": 23,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 97,
+        "target": 100,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSecure_thenReturnNewSslStores",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 103,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 103,
+        "target": 64,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetIpAddress_whenInitializedFalse",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 104,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 104,
+        "target": 95,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 95,
+        "target": 32,
+        "tests": {
+          "Service": [
+            {
+              "name": "testSetPort_whenInitializedTrue_thenThrowIllegalStateException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 105,
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 106,
+        "target": 107,
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 105,
+        "target": 106,
+        "tests": {
+          "Service": [
+            {
+              "name": "testThreadPool_whenOnlyMaxThreads",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 109,
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 109,
+        "target": 16,
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 16,
+        "target": 108,
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 108,
+        "target": 1,
+        "tests": {
+          "Service": [
+            {
+              "name": "testWebSocket_whenPathNull_thenThrowNullPointerException",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

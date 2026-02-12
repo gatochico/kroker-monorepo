@@ -1,0 +1,24 @@
+{
+  "Response": [
+    {
+      "name": "test08",
+      "type": "Automatic"
+    },
+    {
+      "name": "test24",
+      "type": "Automatic"
+    },
+    {
+      "name": "test72",
+      "type": "Automatic"
+    },
+    {
+      "name": "testCookie_whenNameAndValueParameters_shouldAddCookieSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testRedirect_whenLocationParameter_shouldModifyStatusCodeSuccessfully",
+      "type": "Manual"
+    }
+  ]
+}

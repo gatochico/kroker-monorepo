@@ -1,0 +1,1720 @@
+{
+  "MimeParse": {
+    "nodes": [
+      {
+        "name": "",
+        "file": "",
+        "id": 0,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test02",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        },
+        "type": ""
+      },
+      {
+        "name": "parseMimeType(String)",
+        "file": "MimeParse",
+        "id": 1,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "isBlank(String)",
+        "file": "MimeParse",
+        "id": 2,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(MimeParse$1)",
+        "file": "MimeParse$ParseResults",
+        "id": 3,
+        "type": "C",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test00()",
+        "file": "MimeParse_ESTest",
+        "id": 4,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "parseMediaRange(String)",
+        "file": "MimeParse",
+        "id": 5,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "bestMatch(Collection,String)",
+        "file": "MimeParse",
+        "id": 6,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test02",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toFloat(String,float)",
+        "file": "MimeParse",
+        "id": 7,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test01()",
+        "file": "MimeParse_ESTest",
+        "id": 8,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test01",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test02()",
+        "file": "MimeParse_ESTest",
+        "id": 9,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test02",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test03()",
+        "file": "MimeParse_ESTest",
+        "id": 10,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test03",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(int,float)",
+        "file": "MimeParse$FitnessAndQuality",
+        "id": 11,
+        "type": "C",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "fitnessAndQualityParsed(String,Collection)",
+        "file": "MimeParse",
+        "id": 12,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test04()",
+        "file": "MimeParse_ESTest",
+        "id": 13,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<init>(int,float,MimeParse$1)",
+        "file": "MimeParse$FitnessAndQuality",
+        "id": 14,
+        "type": "C",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test05()",
+        "file": "MimeParse_ESTest",
+        "id": 15,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test05",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test06()",
+        "file": "MimeParse_ESTest",
+        "id": 16,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test06",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test07()",
+        "file": "MimeParse_ESTest",
+        "id": 17,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test07",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "compareTo(Object)",
+        "file": "MimeParse$FitnessAndQuality",
+        "id": 18,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test08()",
+        "file": "MimeParse_ESTest",
+        "id": 19,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "compareTo(MimeParse$FitnessAndQuality)",
+        "file": "MimeParse$FitnessAndQuality",
+        "id": 20,
+        "type": "M",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test09()",
+        "file": "MimeParse_ESTest",
+        "id": 21,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test09",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test10()",
+        "file": "MimeParse_ESTest",
+        "id": 22,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test10",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test11()",
+        "file": "MimeParse_ESTest",
+        "id": 23,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test11",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testBestMatch()",
+        "file": "MimeParseTest",
+        "id": 24,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testBestMatch2()",
+        "file": "MimeParseTest",
+        "id": 25,
+        "type": "T",
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ],
+    "links": [
+      {
+        "source": 0,
+        "target": 4,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 4,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 5,
+        "target": 7,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 5,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test03",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test00",
+              "type": "Automatic"
+            },
+            {
+              "name": "test01",
+              "type": "Automatic"
+            },
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "test11",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test01",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 8,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test01",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 9,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test02",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 9,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test02",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 10,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test03",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 10,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test03",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 13,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 14,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 13,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 11,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 12,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 5,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 7,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test04",
+              "type": "Automatic"
+            },
+            {
+              "name": "test05",
+              "type": "Automatic"
+            },
+            {
+              "name": "test06",
+              "type": "Automatic"
+            },
+            {
+              "name": "test07",
+              "type": "Automatic"
+            },
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            },
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 15,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test05",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 15,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test05",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 16,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test06",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 16,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test06",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 17,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test07",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 17,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test07",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 19,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 19,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 20,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 18,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test08",
+              "type": "Automatic"
+            },
+            {
+              "name": "test09",
+              "type": "Automatic"
+            },
+            {
+              "name": "test10",
+              "type": "Automatic"
+            },
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 21,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test09",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 21,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test09",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 22,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test10",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 22,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test10",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 23,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test11",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 23,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "test11",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 24,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 24,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 25,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 25,
+        "target": 6,
+        "tests": {
+          "MimeParse": [
+            {
+              "name": "testBestMatch2",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

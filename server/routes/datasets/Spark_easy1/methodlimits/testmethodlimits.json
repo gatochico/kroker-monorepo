@@ -1,0 +1,22 @@
+{
+  "ExceptionMapperTest": {
+    "testGetInstance_whenDefaultInstanceIsNull()": {
+      "start": 12,
+      "length": 8
+    },
+    "testGetInstance_whenDefaultInstanceIsNotNull()": {
+      "start": 23,
+      "length": 7
+    }
+  },
+  "ExceptionMapper_ESTest": {
+    "test5()": {
+      "start": 87,
+      "length": 4
+    },
+    "test8()": {
+      "start": 109,
+      "length": 3
+    }
+  }
+}

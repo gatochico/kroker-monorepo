@@ -1,0 +1,80 @@
+{
+  "Response": [
+    {
+      "name": "test00",
+      "type": "Automatic"
+    },
+    {
+      "name": "test08",
+      "type": "Automatic"
+    },
+    {
+      "name": "test16",
+      "type": "Automatic"
+    },
+    {
+      "name": "test24",
+      "type": "Automatic"
+    },
+    {
+      "name": "test32",
+      "type": "Automatic"
+    },
+    {
+      "name": "test40",
+      "type": "Automatic"
+    },
+    {
+      "name": "test48",
+      "type": "Automatic"
+    },
+    {
+      "name": "test56",
+      "type": "Automatic"
+    },
+    {
+      "name": "test64",
+      "type": "Automatic"
+    },
+    {
+      "name": "test72",
+      "type": "Automatic"
+    },
+    {
+      "name": "test80",
+      "type": "Automatic"
+    },
+    {
+      "name": "test86",
+      "type": "Automatic"
+    },
+    {
+      "name": "testCookie_whenNameAndValueParameters_shouldAddCookieSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testGetStatus",
+      "type": "Manual"
+    },
+    {
+      "name": "testGetType",
+      "type": "Manual"
+    },
+    {
+      "name": "testHeader",
+      "type": "Manual"
+    },
+    {
+      "name": "testRaw",
+      "type": "Manual"
+    },
+    {
+      "name": "testRedirect_whenLocationParameter_shouldModifyStatusCodeSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testSetBody",
+      "type": "Manual"
+    }
+  ]
+}

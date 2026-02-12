@@ -1,0 +1,1062 @@
+{
+  "ExceptionMapper": {
+    "nodes": [
+      {
+        "name": "",
+        "file": "",
+        "id": 0,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test2",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            },
+            {
+              "name": "test8",
+              "type": "Automatic"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        },
+        "type": ""
+      },
+      {
+        "name": "<init>()",
+        "file": "ExceptionMapper",
+        "id": 1,
+        "type": "C",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test2",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            },
+            {
+              "name": "test8",
+              "type": "Automatic"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getInstance()",
+        "file": "ExceptionMapper",
+        "id": 2,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test0()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 3,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getHandler(Exception)",
+        "file": "ExceptionMapper",
+        "id": 4,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getServletInstance()",
+        "file": "ExceptionMapper",
+        "id": 5,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            },
+            {
+              "name": "test8",
+              "type": "Automatic"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test1()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 6,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getHandler(Class)",
+        "file": "ExceptionMapper",
+        "id": 7,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test2",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test2()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 8,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "setMockitoInterceptor(MockMethodInterceptor)",
+        "file": "ExceptionHandlerImpl$MockitoMock$1366967125",
+        "id": 9,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toString()",
+        "file": "ExceptionHandlerImpl$MockitoMock$1366967125",
+        "id": 10,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "map(Class,ExceptionHandlerImpl)",
+        "file": "ExceptionMapper",
+        "id": 11,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test3()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 12,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getMockitoInterceptor()",
+        "file": "ExceptionHandlerImpl$MockitoMock$1366967125",
+        "id": 13,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test4()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 14,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "setMockitoInterceptor(MockMethodInterceptor)",
+        "file": "ExceptionHandlerImpl$MockitoMock$330652144",
+        "id": 15,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getMockitoInterceptor()",
+        "file": "ExceptionHandlerImpl$MockitoMock$330652144",
+        "id": 16,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "toString()",
+        "file": "ExceptionHandlerImpl$MockitoMock$330652144",
+        "id": 17,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test5()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 18,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test6()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 19,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test7()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 20,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test8()",
+        "file": "ExceptionMapper_ESTest",
+        "id": 21,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test8",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "clear()",
+        "file": "ExceptionMapper",
+        "id": 22,
+        "type": "M",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test8",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testGetInstance_whenDefaultInstanceIsNotNull()",
+        "file": "ExceptionMapperTest",
+        "id": 23,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "testGetInstance_whenDefaultInstanceIsNull()",
+        "file": "ExceptionMapperTest",
+        "id": 24,
+        "type": "T",
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ],
+    "links": [
+      {
+        "source": 0,
+        "target": 3,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 2,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test7",
+              "type": "Automatic"
+            },
+            {
+              "name": "test8",
+              "type": "Automatic"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            },
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 6,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 7,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 8,
+        "target": 1,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 12,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 13,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 11,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 4,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 4,
+        "target": 7,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 9,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 10,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 14,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 15,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 16,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 11,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 7,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 17,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 14,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 18,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 18,
+        "target": 2,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 19,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 19,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 19,
+        "target": 4,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 20,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 20,
+        "target": 2,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 20,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test7",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 21,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test8",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 21,
+        "target": 22,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test8",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 21,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "test8",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 23,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 23,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 24,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 24,
+        "target": 5,
+        "tests": {
+          "ExceptionMapper": [
+            {
+              "name": "testGetInstance_whenDefaultInstanceIsNull",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

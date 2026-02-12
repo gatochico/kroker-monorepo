@@ -1,0 +1,24 @@
+{
+  "FilterImpl": [
+    {
+      "name": "test01",
+      "type": "Automatic"
+    },
+    {
+      "name": "test04",
+      "type": "Automatic"
+    },
+    {
+      "name": "test09",
+      "type": "Automatic"
+    },
+    {
+      "name": "testCreate_whenAcceptTypeNullValueInTheParameters_thenReturnPathAndAcceptTypeSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testCreate_whenOutAssignAcceptTypeInTheParameters_thenReturnPathAndAcceptTypeSuccessfully",
+      "type": "Manual"
+    }
+  ]
+}

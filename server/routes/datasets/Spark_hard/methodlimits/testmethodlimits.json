@@ -1,0 +1,54 @@
+{
+  "ServiceTest": {
+    "testEmbeddedServerIdentifier_defaultAndSet()": {
+      "start": 39,
+      "length": 12
+    },
+    "testSecure_thenReturnNewSslStores()": {
+      "start": 214,
+      "length": 8
+    },
+    "testGetPort_whenInitializedTrue()": {
+      "start": 162,
+      "length": 8
+    },
+    "testIpAddress_whenInitializedFalse()": {
+      "start": 85,
+      "length": 5
+    },
+    "testHalt_whenOutParameters_thenThrowHaltException()": {
+      "start": 65,
+      "length": 2
+    },
+    "testPort_whenInitializedFalse()": {
+      "start": 119,
+      "length": 5
+    }
+  },
+  "Service_ESTest": {
+    "test00()": {
+      "start": 37,
+      "length": 5
+      },
+    "test16()": {
+      "start": 247,
+      "length": 13
+    },
+    "test24()": {
+      "start": 373,
+      "length": 4
+    },
+    "test40()": {
+      "start": 550,
+      "length": 6
+    },
+    "test48()": {
+      "start": 664,
+      "length": 15
+    },
+    "test80()": {
+      "start": 1044,
+      "length": 7
+    }
+  }
+}

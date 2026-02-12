@@ -1,0 +1,52 @@
+{
+  "Service": [
+    {
+      "name": "test00",
+      "type": "Automatic"
+    },
+    {
+      "name": "test16",
+      "type": "Automatic"
+    },
+    {
+      "name": "test24",
+      "type": "Automatic"
+    },
+    {
+      "name": "test40",
+      "type": "Automatic"
+    },
+    {
+      "name": "test48",
+      "type": "Automatic"
+    },
+    {
+      "name": "test80",
+      "type": "Automatic"
+    },
+    {
+      "name": "testEmbeddedServerIdentifier_defaultAndSet",
+      "type": "Manual"
+    },
+    {
+      "name": "testSecure_thenReturnNewSslStores",
+      "type": "Manual"
+    },
+    {
+      "name": "testGetPort_whenInitializedTrue",
+      "type": "Manual"
+    },
+    {
+      "name": "testIpAddress_whenInitializedFalse",
+      "type": "Manual"
+    },
+    {
+      "name": "testHalt_whenOutParameters_thenThrowHaltException",
+      "type": "Manual"
+    },
+    {
+      "name": "testPort_whenInitializedFalse",
+      "type": "Manual"
+    }
+  ]
+}

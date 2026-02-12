@@ -1,0 +1,20 @@
+{
+  "ExceptionMapper": [
+    {
+      "name": "test5",
+      "type": "Automatic"
+    },
+    {
+      "name": "test8",
+      "type": "Automatic"
+    },
+    {
+      "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+      "type": "Manual"
+    },
+    {
+      "name": "testGetInstance_whenDefaultInstanceIsNull",
+      "type": "Manual"
+    }
+  ]
+}

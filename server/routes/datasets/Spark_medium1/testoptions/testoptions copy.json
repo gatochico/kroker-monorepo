@@ -1,0 +1,60 @@
+{
+  "FilterImpl": [
+    {
+      "name": "test00",
+      "type": "Automatic"
+    },
+    {
+      "name": "test01",
+      "type": "Automatic"
+    },
+    {
+      "name": "test02",
+      "type": "Automatic"
+    },
+    {
+      "name": "test03",
+      "type": "Automatic"
+    },
+    {
+      "name": "test04",
+      "type": "Automatic"
+    },
+    {
+      "name": "test05",
+      "type": "Automatic"
+    },
+    {
+      "name": "test06",
+      "type": "Automatic"
+    },
+    {
+      "name": "test07",
+      "type": "Automatic"
+    },
+    {
+      "name": "test08",
+      "type": "Automatic"
+    },
+    {
+      "name": "test09",
+      "type": "Automatic"
+    },
+    {
+      "name": "test10",
+      "type": "Automatic"
+    },
+    {
+      "name": "testCreate_whenAcceptTypeNullValueInTheParameters_thenReturnPathAndAcceptTypeSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testCreate_whenOutAssignAcceptTypeInTheParameters_thenReturnPathAndAcceptTypeSuccessfully",
+      "type": "Manual"
+    },
+    {
+      "name": "testGets_thenReturnGetPathAndGetAcceptTypeSuccessfully",
+      "type": "Manual"
+    }
+  ]
+}

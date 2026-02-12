@@ -1,0 +1,26 @@
+{
+  "ResponseTest": {
+    "testCookie_whenNameAndValueParameters_shouldAddCookieSuccessfully()": {
+      "start": 140,
+      "length": 14
+    },
+    "testRedirect_whenLocationParameter_shouldModifyStatusCodeSuccessfully()": {
+      "start": 272,
+      "length": 5
+    }
+  },
+  "Response_ESTest": {
+    "test08()": {
+    "start": 232,
+    "length": 20
+    },
+    "test24()": {
+      "start": 614,
+      "length": 14
+    },
+    "test72()": {
+      "start": 1455,
+      "length": 16
+    }
+  }
+}

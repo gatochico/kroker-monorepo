@@ -1,0 +1,18 @@
+{
+  "Base64Test": {
+    "test_decode()": {
+      "start": 22,
+      "length": 6
+    }
+  },
+  "Base64_ESTest": {
+    "test0()": {
+      "start": 21,
+      "length": 2
+    },
+    "test2()": {
+      "start": 33,
+      "length": 8
+    }
+  }
+}

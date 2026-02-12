@@ -1,0 +1,31 @@
+{
+    "MimeParseTest": {
+      "testBestMatch()": {
+        "start": 13,
+        "length": 10
+      },
+      "testBestMatch2()": {
+        "start": 26,
+        "length": 11
+      }
+    },
+    "MimeParse_ESTest": {
+      "test02()": {
+      "start": 69,
+      "length": 13
+      },
+      "test04()": {
+        "start": 102,
+        "length": 5
+      },
+      "test05()": {
+        "start": 110,
+        "length": 5
+      },
+      "test06()": {
+        "start": 118,
+        "length": 5
+      }
+    }
+  }
+  

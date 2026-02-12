@@ -1,0 +1,40 @@
+{
+    "Base64": [
+      {
+        "name": "test0",
+        "type": "Automatic"
+      },
+      {
+        "name": "test1",
+        "type": "Automatic"
+      },
+      {
+        "name": "test2",
+        "type": "Automatic"
+      },
+      {
+        "name": "test3",
+        "type": "Automatic"
+      },
+      {
+        "name": "test4",
+        "type": "Automatic"
+      },
+      {
+        "name": "test5",
+        "type": "Automatic"
+      },
+      {
+        "name": "test6",
+        "type": "Automatic"
+      },
+      {
+        "name": "test_decode",
+        "type": "Manual"
+      }
+      {
+        "name": "test_encode",
+        "type": "Manual"
+      }
+    ]
+  }

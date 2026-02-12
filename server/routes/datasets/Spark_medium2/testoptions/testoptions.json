@@ -1,0 +1,28 @@
+{
+  "MimeParse": [
+    {
+      "name": "test02",
+      "type": "Automatic"
+    },
+    {
+      "name": "test04",
+      "type": "Automatic"
+    },
+    {
+      "name": "test05",
+      "type": "Automatic"
+    },
+    {
+      "name": "test06",
+      "type": "Automatic"
+    },
+    {
+      "name": "testBestMatch",
+      "type": "Manual"
+    },
+    {
+      "name": "testBestMatch2",
+      "type": "Manual"
+    }
+  ]
+}

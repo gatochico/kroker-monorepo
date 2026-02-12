@@ -1,0 +1,510 @@
+{
+  "Base64": {
+    "nodes": [
+      {
+        "name": "",
+        "file": "",
+        "id": 0,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test2",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            },
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        },
+        "type": ""
+      },
+      {
+        "name": "test0()",
+        "file": "Base64_ESTest",
+        "id": 1,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "encode(String)",
+        "file": "Base64",
+        "id": 2,
+        "type": "M",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            },
+            {
+              "name": "test5",
+              "type": "Automatic"
+            },
+            {
+              "name": "test6",
+              "type": "Automatic"
+            },
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            },
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test1()",
+        "file": "Base64_ESTest",
+        "id": 3,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "decode(String)",
+        "file": "Base64",
+        "id": 4,
+        "type": "M",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            },
+            {
+              "name": "test2",
+              "type": "Automatic"
+            },
+            {
+              "name": "test3",
+              "type": "Automatic"
+            },
+            {
+              "name": "test4",
+              "type": "Automatic"
+            },
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test2()",
+        "file": "Base64_ESTest",
+        "id": 5,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test3()",
+        "file": "Base64_ESTest",
+        "id": 6,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test4()",
+        "file": "Base64_ESTest",
+        "id": 7,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test5()",
+        "file": "Base64_ESTest",
+        "id": 8,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test6()",
+        "file": "Base64_ESTest",
+        "id": 9,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "name": "<clinit>()",
+        "file": "Base64",
+        "id": 10,
+        "type": "C",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            },
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test_decode()",
+        "file": "Base64Test",
+        "id": 11,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "name": "test_encode()",
+        "file": "Base64Test",
+        "id": 12,
+        "type": "T",
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ],
+    "links": [
+      {
+        "source": 0,
+        "target": 1,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test0",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test1",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 5,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test2",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 6,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 6,
+        "target": 4,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test3",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 7,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 7,
+        "target": 4,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test4",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 8,
+        "target": 2,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test5",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 9,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 9,
+        "target": 2,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test6",
+              "type": "Automatic"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 11,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 11,
+        "target": 2,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 11,
+        "target": 4,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 11,
+        "target": 10,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_decode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 0,
+        "target": 12,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 10,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      },
+      {
+        "source": 12,
+        "target": 2,
+        "tests": {
+          "Base64": [
+            {
+              "name": "test_encode",
+              "type": "Manual"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ExceptionMapper": [
+    {
+      "name": "test0",
+      "type": "Automatic"
+    },
+    {
+      "name": "test1",
+      "type": "Automatic"
+    },
+    {
+      "name": "test2",
+      "type": "Automatic"
+    },
+    {
+      "name": "test3",
+      "type": "Automatic"
+    },
+    {
+      "name": "test4",
+      "type": "Automatic"
+    },
+    {
+      "name": "test5",
+      "type": "Automatic"
+    },
+    {
+      "name": "test6",
+      "type": "Automatic"
+    },
+    {
+      "name": "test7",
+      "type": "Automatic"
+    },
+    {
+      "name": "test8",
+      "type": "Automatic"
+    },
+    {
+      "name": "testGetInstance_whenDefaultInstanceIsNotNull",
+      "type": "Manual"
+    },
+    {
+      "name": "testGetInstance_whenDefaultInstanceIsNull",
+      "type": "Manual"
+    }
+  ]
+}
