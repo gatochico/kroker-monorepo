@@ -1,0 +1,84 @@
+.node {
+    text-anchor: start;
+  }
+  
+.node rect {
+  stroke: gray;
+    stroke-width: 1.5px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.originalLink, .mpLink {
+  fill: none;
+  stroke: #ccc;
+}
+
+.highlightedGraph {
+  opacity: 1;
+}
+
+.notHighlightedGraph {
+  opacity: 0.2;
+}
+
+.custom-menu, .custom-menu-test, .remove-menu-test {
+  display: none;
+  list-style-type: none;
+  z-index: 1000;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid #CCC;
+  white-space: nowrap;
+  font-family: sans-serif;
+  background: #FFF;
+  color: #333;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #DEF;
+}
+
+.tooltip {
+  background-color: white;
+  font-family: sans-serif;
+  padding: 5px 5px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+.tooltip h3, span {
+  color:  	#383838;
+}
+
+.tooltip p {
+  color:  	#696969;
+}
+
+.text-value {
+  font-size: 12px;
+  fill: black;
+  opacity: 0.9;
+}
+
+.square {
+  width: 14px;
+  height: 14px;
+}
+
+.squarespan {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
